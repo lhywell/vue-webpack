@@ -1,29 +1,11 @@
-# hello-world
+# Vue后台管理项目桌面端适配方案
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 技术栈
+vuecli3 + webpack4 + postcss
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 路由
+1. 登陆/login
+2. 首页/index
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 后台左右栏目布局，共有头部
