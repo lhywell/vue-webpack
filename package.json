@@ -1,5 +1,5 @@
 {
-  "name": "airwaybill-ocr",
+  "name": "doc_bill",
   "version": "0.0.1",
   "private": true,
   "author": "lihuiyin <lihuiyin@163.com>",
@@ -24,8 +24,10 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "postcss": "^6.0.16",
+    "postcss-advanced-variables": "^3.0.0",
     "postcss-apply": "^0.8.0",
     "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.1.0",
     "postcss-extend": "^1.0.5",
     "postcss-font-magician": "^2.1.0",
     "postcss-import": "^11.0.0",
@@ -65,7 +67,10 @@
       "postcss-nested": {},
       "precss": {},
       "postcss-preset-env": {
-        "browsers": ["last 2 versions", "> 5%"]
+        "browsers": [
+          "last 2 versions",
+          "> 5%"
+        ]
       },
       "postcss-url": {
         "url": "inline"
